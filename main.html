@@ -10,6 +10,7 @@
 <body>
   <div id="section_1" class="panels">
     <div class="panels__container">
+      <h2 class="panel_main_txt">No 1. 나는 모든 일을 개선하기 위해 깊이 생각해서 행동한다.</h2>
       <a href="#" class="panel" onclick="fnMoveNextContent('#section_1', '#section_2','Y')">
         <div class="panel__content" >
           <h3 class="panel__title">EXPLORE</h3>
@@ -23,8 +24,9 @@
     </div>
   </div>
 
-  <div id="section_2" class="panels">
+  <div id="section_2" class="panels none">
     <div class="panels__container">
+      <h2 class="panel_main_txt">No 2. 나는 다른 사람들보다 근면하며 책임감이 강하다.</h2>
       <a href="#" class="panel" onclick="fnMoveNextContent('#section_2', '#section_3','Y')">
         <div class="panel__content" >
           <h3 class="panel__title">EXPLORE2</h3>
@@ -40,14 +42,15 @@
 
   <div id="section_3" class="panels none">
     <div class="panels__container">
+      <h2 class="panel_main_txt">No 3. 나는 정직하고 자제력이 있는 사람이다.</h2>
       <a href="#" class="panel" onclick="fnMoveNextContent('#section_3', '#section_4','Y')">
         <div class="panel__content" >
-          <h3 class="panel__title">EXPLORE2</h3>
+          <h3 class="panel__title">EXPLORE3</h3>
         </div>
       </a>
       <a href="#" class="panel">
         <div class="panel__content"  onclick="fnMoveNextContent('#section_3', '#section_4','N')">
-          <h3 class="panel__title">DISCOVER2</h3>
+          <h3 class="panel__title">DISCOVER3ß</h3>
         </div>
       </a>
     </div>
@@ -55,14 +58,15 @@
 
   <div id="section_4" class="panels none">
     <div class="panels__container">
+      <h2 class="panel_main_txt">No 4. 나의 행동은 원칙에 기초를 둔다.</h2>
       <a href="#" class="panel" onclick="fnMoveNextContent('#section_4', 'FINAL','Y')">
         <div class="panel__content" >
-          <h3 class="panel__title">EXPLORE2</h3>
+          <h3 class="panel__title">EXPLORE4</h3>
         </div>
       </a>
       <a href="#" class="panel">
         <div class="panel__content" onclick="fnMoveNextContent('#section_4', 'FINAL','N')">
-          <h3 class="panel__title">DISCOVER2</h3>
+          <h3 class="panel__title">DISCOVER4</h3>
         </div>
       </a>
     </div>
@@ -70,11 +74,16 @@
 
   <div id="section_final" class="panels none">
     <div class="panels__container">
-      <div class="panel">
-        <div class="panel__content">
-          <h3 class="panel__title">final</h3>
-        </div>
-      </div>
+      <h3 class="panel_main_txt">
+        본 성향 검사지는 전문 심리 상담가와 협업하여 개발된 검사입니다.
+        9가지 성향으로 총 81개의 문항이며, 대략 10-15분 정도 소요됩니다.
+
+        모든 문항에 대해 3초 내로 작성하고,
+        왼쪽부터 [ 전혀 그렇지 않다 / 대체로 그렇지 않다 / 보통이다 / 대체로 그렇다 / 매우 그렇다 ]로 표기해주시기 바랍니다.
+
+        한 문항에 대해 오랫동안 고민하면 '되고 싶은 나의 모습'에 대해 체크하게 되므로
+        더욱 정확한 결과 도출을 위해 보통이다(3번) 문항은 선택하지 않는 것을 권장합니다.
+      </h3>
     </div>
   </div>
 </body>
